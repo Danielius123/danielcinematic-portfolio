@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 /* Big field selections */
 #home {
     width: 100%;
