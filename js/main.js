@@ -3,7 +3,7 @@ let camera = "Canon 80D";
 let stabilizer = "Zhiyun Crane V2";
 let gopro = "GoPro Hero 7 Black";
 let drone = "DJI Mavic Air 2";
-// ok
+
 /*  ---------------------------------------------------
     Template Name: Dreams
     Description: Dreams wedding template
