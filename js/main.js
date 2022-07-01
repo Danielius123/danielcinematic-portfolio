@@ -188,7 +188,7 @@ let drone = "DJI Mavic Air 2";
             }
         });
     });
-
+    
 })(jQuery);
 
 function scrollToSection(divClass) {
