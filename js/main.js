@@ -25,8 +25,8 @@ let drone = "DJI Mavic Air 2";
         Preloader
     --------------------*/
     $(window).on('load', function () {
-        $(".loader").delay(4800).fadeOut();
-        $("#preloder").delay(4200).fadeOut("slow");
+        $(".loader").delay(2400).fadeOut();
+        $("#preloder").delay(2100).fadeOut("slow");
 
         /*------------------
             Portfolio filter
