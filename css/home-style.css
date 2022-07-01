@@ -4,6 +4,32 @@ html, body {
   overflow: hidden;
 }
 
+.selection {
+  transition: text-shadow 1s ease-in-out 0s;
+  animation-duration: 4s;
+  animation-name: fadeInAnimation;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      text-shadow: 2px 2px 3px rgba(255, 255, 255, 0);
+  }
+
+  45% {
+      text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+  }
+
+  50% {
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+  }
+
+  100% {
+      text-shadow: 2px 2px 3px rgba(255, 255, 255, 0);
+   }
+}
+
 /* Big field selections */
 #home {
     width: 100%;
