@@ -1,0 +1,85 @@
+/* Big field selections */
+body {
+    background-color: black;
+}
+
+#main_section {
+    position: relative;
+    height: 75vh;
+}
+
+#about_section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_block {
+    width: 50%;
+    display: inline-block;
+}
+
+.about_container {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_container_container {
+    width: 80%;
+    height: 80%;
+}
+
+/* Smaller items style */
+h1 {
+    color: white;
+    font-size: 55px;
+    z-index: 2;
+    padding-bottom: 12%;
+    transition: text-shadow .4s;
+}
+
+.main_section_image {
+    width: 80%;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.danielc_title {
+    width: 55%;
+}
+
+.about_section_image_1 {
+    background: url(../images/djproducer/about_section_image_1.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.about_section_image_2 {
+    background: url(../images/djproducer/about_section_image_2.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.about_text {
+    width: 80%;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.about_question {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h1:hover {
+    text-shadow: 0px 0px 15px #919191c9;
+}
+
+.about_container_container:hover {
+    text-shadow: 0px 0px 15px #d1d1d1da;
+}
