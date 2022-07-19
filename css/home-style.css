@@ -1,0 +1,223 @@
+/* Big field selections */
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Home_Page_Background_v3.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home_body {
+    width: 50%;
+    height: 90vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    align-items: center;
+}
+
+.home_body_selections {
+    width: 250px;
+    text-align: center;
+}
+
+.home_footer {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+}
+
+.home_footer_selections {
+    width: 200px;
+    text-align: center;
+}
+
+/* Smaller items style */
+.home_selection {
+    display: inline-block;
+    padding: 8px;
+    width: 100%;
+}
+
+.selection {
+    font-size: 130%;
+    font-weight: 220;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    transition: transform .4s;
+}
+
+.selection:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 0px 7px #919191c9;
+}
+
+.vfxartist {
+  letter-spacing: 5px;
+}
+
+.videographer {
+    letter-spacing: 7px;
+}
+
+.djproducer {
+    letter-spacing: 6px;
+}
+
+.triathlete {
+    letter-spacing: 11px;
+}
+
+.programmer {
+    letter-spacing: 8px;
+}
+
+.contentcreator {
+    letter-spacing: 2px;
+}
+
+.about {
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 479px) {
+.home_body {
+    width: 100%;
+    font-size: 90%;
+}
+}
+
+/* Preloder */
+#preloder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #000;
+}
+  
+.loader {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    margin-top: -50x;
+    margin-left: -50px;
+    border-radius: 60px;
+    /* animation: loader 0.8s linear infinite; */
+    /* -webkit-animation: loader 0.8s linear infinite; */
+}
+
+#loader-gif {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes loader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      border: 4px solid #f44336;
+      border-left-color: transparent;
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      border: 4px solid #673ab7;
+      border-left-color: transparent;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      border: 4px solid #f44336;
+      border-left-color: transparent;
+    }
+  }
+  @-webkit-keyframes loader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      border: 4px solid #f44336;
+      border-left-color: transparent;
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+      border: 4px solid #673ab7;
+      border-left-color: transparent;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      border: 4px solid #f44336;
+      border-left-color: transparent;
+    }
+  }
+
+/* Loader */
+@media only screen and (min-width: 1500px) {
+    .loader {
+      position: absolute !important;
+      top: 35% !important;
+      left: 47% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1499px) {
+    .loader {
+      position: absolute !important;
+      top: 35% !important;
+      left: 45% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .loader {
+      position: absolute !important;
+      top: 35% !important;
+      left: 42% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .loader {
+      width: 125px;
+      height: 125px;
+      position: absolute !important;
+      top: 37% !important;
+      left: 45% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) and (max-width: 479px) {
+    .loader {
+      width: 125px;
+      height: 125px;
+      position: absolute !important;
+      top: 35% !important;
+      left: 38% !important;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 419px) {
+    .loader {
+      width: 125px;
+      height: 125px;
+      position: absolute !important;
+      top: 35% !important;
+      left: 46% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 399px) {
+    .loader {
+      width: 125px;
+      height: 125px;
+      position: absolute !important;
+      top: 37% !important;
+      left: 45% !important;
+    }
+  }
